@@ -75,7 +75,7 @@ FDR_obs <- function( trueState, predictions, fdr.thres, method ){
   for(sim.ix in 1:sim.num){
     for(cell.ix in 1:cell.num){     ### loop for each cell
       
-      if(method == 'cedar_s' | method == 'cedar_m'){
+      if(method == 'cedar_s' | method == 'cedar_m' | method == 'cs_sam'){
         fdr.tmp <- 1 - predictions[,cell.ix,sim.ix]
       }else{
         pval.tmp <- 1- predictions[,cell.ix,sim.ix]
@@ -104,7 +104,7 @@ MCC_obs <- function( trueState, predictions, fdr.thres, method ){
   for(sim.ix in 1:sim.num){
     for(cell.ix in 1:cell.num){     ### loop for each cell
       
-      if(method == 'cedar_s' | method == 'cedar_m'){
+      if(method == 'cedar_s' | method == 'cedar_m' | method == 'cs_sam'){
         fdr.tmp <- 1 - predictions[,cell.ix,sim.ix]
       }else{
         pval.tmp <- 1- predictions[,cell.ix,sim.ix]
