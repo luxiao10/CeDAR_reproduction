@@ -2,7 +2,7 @@ Folder CeDAR_reproduction contains all R scripts used in simulation and real dat
 
 There are three folders: src, data, analysis. 
 1. Folder src store all functions used to summarize result or generate figures.
-2. Folder data store datasets used in simulation or realdata analysis. 
+2. Folder data store datasets used in simulation and partial data used in realdata analysis. For data sets not available in this folder, please check the instructions in corresponding script to get access to the code.
 3. Folder analysis contains all R scripts that perform simulation and real data analysis. 
 
 Before running provided code:
