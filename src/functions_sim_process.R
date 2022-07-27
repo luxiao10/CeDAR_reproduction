@@ -233,7 +233,7 @@ sim_process <- function(sim.seed = 12345, sim.num = 50, Sample.N = 50,
       ## CeDAR-S and CeDAR-M
       method.include.ix <- (c('cedar_s','cedar_m') %in% methods_in_comparison) 
       if(any(method.include.ix) ){
-        cedar_res <- cedar(Y_raw = Y_raw, prop = prop, design.1 = design, 
+        cedar_res <- cedar(Y_raw = Y_raw, prop = prop.input, design.1 = design, 
                            factor.to.test = 'disease',cutoff.tree = c("fdr", 0.01),
                            cutoff.prior.prob = c("pval",0.01),
                            tree.type = c("single", "full")[method.include.ix],
@@ -261,7 +261,7 @@ sim_process <- function(sim.seed = 12345, sim.num = 50, Sample.N = 50,
       if('cedar_custom' %in% methods_in_comparison){
         cedar_res <- list()
         for(tree.ix in 1:length(cedar_mis_tree_structures)){
-          cedar_res.tmp <- cedar(Y_raw = Y_raw, prop = prop, design.1 = design, 
+          cedar_res.tmp <- cedar(Y_raw = Y_raw, prop = prop.input, design.1 = design, 
                                  factor.to.test = 'disease',cutoff.tree = c("fdr", 0.01),
                                  cutoff.prior.prob = c("pval",0.01),
                                  tree.type = 'full',
