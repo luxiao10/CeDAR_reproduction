@@ -16,11 +16,11 @@ Some tips:
 3. If multiple R scripts in same folder, please run the code in following order: preprocessing -> run_csDM -> result_summary (these are keywords in script name)
 
 Map between result in Manuscript and folder
-/analysis/simulation/computation_time: Table S7
+/analysis/simulation/computation_time: Table S10
 /analysis/simulation/de_pattern: Figure 4; Figure S2, S3, S4; Table S2, S3
-/analysis/simulation/est_prop: Figure S6; Table S4
-/analysis/simulation/est_tree_prob: Figure S5
-/analysis/simulation/mis_tree: Figure S7, S8, S9, S10; Table S5, S6
+/analysis/simulation/est_prop: Figure S10; Table S9
+/analysis/simulation/est_tree_prob: Figure S5; Table S4
+/analysis/simulation/mis_tree: Figure S6, S7, S8, S9; Table S5, S6
 /analysis/simulation/sample_size: Figure 3; Table S1
 /analysis/real-data/blood_gender: Figure 6; Figure S11
 /analysis/real-data/blood_ra: Figure 7
