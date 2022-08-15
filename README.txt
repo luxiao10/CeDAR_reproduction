@@ -2,7 +2,7 @@ Folder CeDAR_reproduction contains all R scripts used in simulation and real dat
 
 There are three folders: src, data, analysis. 
 1. Folder src store all functions used to summarize result or generate figures.
-   Specifically, if the newest cedar cannot be accessed through TOAST package, please source the file functions_cedar_2.0.R.
+   Specifically, if the newest cedar cannot be accessed through TOAST package (due to a slow update process), please source the file functions_cedar_2.0.R    in folder '/src' or download      the latest version through following command line: devtools::install_github("ziyili20/TOAST", build_vignettes=TRUE).
    
 2. Folder data store datasets used in simulation and partial data used in realdata analysis. For data sets not available in this folder, please check the instructions in corresponding script to get access to the data. (You may also look for the data through the following Dropbox link: https://www.dropbox.com/sh/nvbcyr8sebgh9a3/AACnupEOGyNheQwHm7W_j9rra?dl=0) 
 
