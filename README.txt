@@ -17,6 +17,7 @@ Some tips:
 2. For real data anlaysis, like RA anlaysis and smoke status analysis, the data size is too large to run a local computer. We suggest to run it on a cluster.
 3. If multiple R scripts in same folder, please run the code in following order: preprocessing -> run_csDM -> result_summary (these are keywords in script name)
 4. Results maybe slightly different even with same random seed under differnt systems, but the trend and conclusion should be same.
+5. All analyses were performed on R 4.1.3. For R 4.2.0, some packages (like CellMix) installation could confront error. We are still working on this to figure it out.
 
 Map between result in Manuscript and folder
 /analysis/simulation/computation_time: Table S9
