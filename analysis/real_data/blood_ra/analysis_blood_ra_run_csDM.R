@@ -11,7 +11,7 @@ library(ggplot2)
 library(car)
 library('gridExtra')
 library(sirt)
-library('CellMix')
+#library('CellMix')
 library('tidyr')
 
 ### Load data
