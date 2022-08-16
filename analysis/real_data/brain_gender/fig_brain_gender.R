@@ -4,7 +4,7 @@ library(minfi)
 library(TOAST)
 library(TCA)
 library(csSAM)
-library(CellMix)
+#library(CellMix)
 library(EpiDISH)
 
 ### speicify the figure output path 
