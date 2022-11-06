@@ -28,7 +28,7 @@ Map between result in Manuscript and folder
 /analysis/simulation/mis_tree: Figure S6, S7; Table S7
 /analysis/simulation/sample_size: Figure 3; Table S1
 /analysis/real-data/blood_gender: Figure 6; Figure S9
-/analysis/real-data/blood_ra: Figure 7
+/analysis/real-data/blood_ra: Figure 7; Table 1
 /analysis/real-data/blood_sle: Figure S11
 /analysis/real-data/blood_smoke: Figure S12
 /analysis/real-data/brain_ds: Figure S10
